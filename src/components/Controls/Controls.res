@@ -8,8 +8,8 @@ let button = {
     padding(zero),
     background(transparent),
     cursor(pointer),
-    selector("&:nth-child(2)", [marginLeft(1.->rem)]),
-    selector(":disabled", [opacity(1.5)]),
+    selector(. "&:nth-child(2)", [marginLeft(1.->rem)]),
+    selector(. ":disabled", [opacity(1.5)]),
   ])
 }
 

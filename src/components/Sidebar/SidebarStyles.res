@@ -27,8 +27,8 @@ let content = style(.[
    paddingVH(zero, 1.5->rem),
   flex(#num(3.)),
   overflow(auto),
-  selector("::-webkit-scrollbar", [background("543a64"->hex), width(6->px)]),
-  selector("::-webkit-scrollbar-thumb", [background("9480a0"->hex), borderRadius(2->px)]),
+  selector(. "::-webkit-scrollbar", [background("543a64"->hex), width(6->px)]),
+  selector(. "::-webkit-scrollbar-thumb", [background("9480a0"->hex), borderRadius(2->px)]),
 ])
 
 let footer = style(.[

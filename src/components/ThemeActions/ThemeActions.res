@@ -19,7 +19,7 @@ let button = textColor =>
     display(#flex),
     alignItems(center),
     marginLeft(1.->rem),
-    selector("img", [marginRight(0.75->rem)]),
+    selector(. "img", [marginRight(0.75->rem)]),
   ])
 
 let wrapper = style(.[display(#flex), justifyContent(flexEnd)])

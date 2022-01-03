@@ -28,7 +28,7 @@ if (match !== undefined) {
           subModulePath: /* [] */0,
           value: "initialConfig",
           fullPath: "TimerValues.initialConfig",
-          filePath: "/home/bvihjcep/Projects/timerlab/src/lib/TimerValues.res"
+          filePath: "/Users/mando/Github/timerlab-update/src/lib/TimerValues.res"
         }, "Storage#key: " + SidebarForm$Timerlab.$$Storage.key, [
           "Parsing error",
           match._0

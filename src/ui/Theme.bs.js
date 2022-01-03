@@ -31,7 +31,7 @@ var Colors = {
 
 var text = CssJs.fontFamily({
       NAME: "custom",
-      VAL: "\'Poppins\', sans-serif"
+      VAL: "'Poppins', sans-serif"
     });
 
 var Fonts = {
