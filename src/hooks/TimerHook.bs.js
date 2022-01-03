@@ -4,10 +4,10 @@ import * as Curry from "bs-platform/lib/es6/curry.js";
 import * as React from "react";
 import * as Belt_Array from "bs-platform/lib/es6/belt_Array.js";
 import * as ID$Timerlab from "../lib/ID.bs.js";
+import * as UseTimerHook from "@idkjs/use-timer/src/UseTimerHook.bs.js";
 import * as Operators$Timerlab from "../lib/Operators.bs.js";
 import * as TimerTypes$Timerlab from "../types/TimerTypes.bs.js";
 import * as TimerValues$Timerlab from "../lib/TimerValues.bs.js";
-import * as UseTimerHook$Timerlab from "../bindings/UseTimerHook.bs.js";
 
 function toThemeForm(id, newTheme, theme) {
   if (theme.id === id) {
@@ -47,7 +47,7 @@ function useTimer(configForm) {
       });
   var setThemes = match$2[1];
   var themes = match$2[0];
-  var timer = UseTimerHook$Timerlab.useTimer(TimerValues$Timerlab.initialConfig.time);
+  var timer = UseTimerHook.useTimer(TimerValues$Timerlab.initialConfig.time);
   var openCreateTheme = function (param) {
     return Curry._1(setStatus, (function (param) {
                   return /* IsCreating */0;

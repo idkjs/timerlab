@@ -1424,6 +1424,14 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@idkjs/use-timer@idkjs/use-timer":
+  version "0.3.0"
+  resolved "https://codeload.github.com/idkjs/use-timer/tar.gz/4cde2cc7421b854e9ae7ac78a0810fa7e4d220dd"
+  dependencies:
+    "@rescript/react" "^0.10.3"
+    react "^17.0.2"
+    rescript "^9.1.4"
+
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -7502,7 +7510,7 @@ react-text-mask@5.4.3:
   dependencies:
     prop-types "^15.5.6"
 
-react@17.0.2:
+react@17.0.2, react@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
   integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
@@ -7652,6 +7660,11 @@ res-logger@2.0.0-beta.2:
   version "2.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/res-logger/-/res-logger-2.0.0-beta.2.tgz#1a8428cf5c9de839f5c34652c15921dd2e695531"
   integrity sha512-UZrgEOhFLkQ1a510C7Dwf/fPnEb9KOIP2MGjj3I+oMFLtO/7TzbM8KgdPAJxS3E5sumOdw57GaybO1dAfyUx4w==
+
+rescript@^9.1.4:
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/rescript/-/rescript-9.1.4.tgz#1eb126f98d6c16942c0bf0df67c050198e580515"
+  integrity sha512-aXANK4IqecJzdnDpJUsU6pxMViCR5ogAxzuqS0mOr8TloMnzAjJFu63fjD6LCkWrKAhlMkFFzQvVQYaAaVkFXw==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"

@@ -28,7 +28,6 @@
   ],
   "bs-dev-dependencies": [],
   "ppx-flags": ["res-logger/ppx", "re-formality/ppx", "decco/ppx"],
-  "refmt": 3,
   "warnings": {
     "error": "+5",
     "number": "-44"
